@@ -3868,10 +3868,10 @@ eventsource-polyfill@^0.9.6:
   resolved "https://registry.yarnpkg.com/eventsource-polyfill/-/eventsource-polyfill-0.9.6.tgz#10e0d187f111b167f28fdab918843ce7d818f13c"
   integrity sha1-EODRh/ERsWfyj9q5GIQ859gY8Tw=
 
-evergreen-ui@^4.18.1:
-  version "4.21.5"
-  resolved "https://registry.yarnpkg.com/evergreen-ui/-/evergreen-ui-4.21.5.tgz#6033d29788d0f8a789a0cb53ece896d608e932ef"
-  integrity sha512-rJClpJnvpF4ugXLzFIiRjqGJG09OFs4qOo7w0E+MfjNYISy/uEC0KxWSa+3246/74XVWqaw6FlvnD8E/l9pd+w==
+evergreen-ui@^4.29.1:
+  version "4.29.1"
+  resolved "https://registry.yarnpkg.com/evergreen-ui/-/evergreen-ui-4.29.1.tgz#6b79d9b38504c75be5c68f4ed53ad50598650f43"
+  integrity sha512-STGuq7KqwTMa4/REEBXIqilpL04TJ5nRWa0UmFCFVQ+aWK/iIrxtqdu0jlfGRaJStmMPlwO/gTPA0KIS5DK5fA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@blueprintjs/icons" "^3.2.0"
@@ -3883,13 +3883,14 @@ evergreen-ui@^4.18.1:
     fuzzaldrin-plus "^0.6.0"
     glamor "^2.20.40"
     lodash.debounce "^4.0.8"
-    lodash.mapvalues "^4.6.0"
+    lodash.startcase "^4.4.0"
     prop-types "^15.6.2"
+    react-is "^16.13.1"
     react-scrollbar-size "^2.0.2"
     react-tiny-virtual-list "^2.1.4"
     react-transition-group "^2.5.0"
     tinycolor2 "^1.4.1"
-    ui-box "^2.1.2"
+    ui-box "^3.2.0"
 
 evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
   version "1.0.3"
@@ -6504,11 +6505,6 @@ lodash.keys@^3.0.0:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
-lodash.mapvalues@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.mapvalues/-/lodash.mapvalues-4.6.0.tgz#1bafa5005de9dd6f4f26668c30ca37230cc9689c"
-  integrity sha1-G6+lAF3p3W9PJmaMMMo3IwzJaJw=
-
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -6518,6 +6514,11 @@ lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
+
+lodash.startcase@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.startcase/-/lodash.startcase-4.4.0.tgz#9436e34ed26093ed7ffae1936144350915d9add8"
+  integrity sha1-lDbjTtJgk+1/+uGTYUQ1CRXZrdg=
 
 lodash.tail@^4.1.1:
   version "4.1.1"
@@ -8465,6 +8466,11 @@ react-event-listener@^0.5.1:
     prop-types "^15.6.0"
     warning "^3.0.0"
 
+react-is@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
 react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
@@ -10139,10 +10145,10 @@ uglifyjs-webpack-plugin@^0.4.6:
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
 
-ui-box@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ui-box/-/ui-box-2.1.2.tgz#fa448c8ad236ab794a634a592fcdd69aec951232"
-  integrity sha512-4AKwZrmuALdvLVFL0h9Vce9ilE1qgvyTdKzeDpI+lMqZ18zvFceHehmHxh6pmCCA7aDYY0XQJpjdqPB7/JOl0A==
+ui-box@^3.2.0:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/ui-box/-/ui-box-3.3.1.tgz#39733d55507053ac2bc3fd1fc184d0d648ff682d"
+  integrity sha512-bzaFMdtzeSz1YcMRjE1A5a1/ExRWVSu5c42f9YeDAhlVfgNSGCrQMEEAiq3XvEVKlVgnf6GxDfGrvzBZA3w2GA==
   dependencies:
     "@emotion/hash" "^0.7.1"
     inline-style-prefixer "^5.0.4"
