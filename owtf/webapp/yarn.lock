@@ -3382,12 +3382,12 @@ discontinuous-range@1.0.0:
   resolved "https://registry.yarnpkg.com/discontinuous-range/-/discontinuous-range-1.0.0.tgz#e38331f0844bba49b9a9cb71c771585aab1bc65a"
   integrity sha1-44Mx8IRLukm5qctxx3FYWqsbxlo=
 
-docxtemplater@^3.11.3:
-  version "3.15.2"
-  resolved "https://registry.yarnpkg.com/docxtemplater/-/docxtemplater-3.15.2.tgz#22ebfbff20d744561dea1f73f843bfadaa907d67"
-  integrity sha512-wW4rYEqNidOtcWRis9jsNtx57WH9xPiP5PPXGQ3PYwcjyLBrSVo4Eq13LbS8wUlu+Ql/S0PTJrUTe1RCI3hoqg==
+docxtemplater@^3.22.3:
+  version "3.22.5"
+  resolved "https://registry.yarnpkg.com/docxtemplater/-/docxtemplater-3.22.5.tgz#0aafc850bfa0ff5514ec7944cbc9817ae21b1110"
+  integrity sha512-+qHaLdPM3lygP/IfpAr8Y1wHHhOxBfRfG6kh+q1TJ5kW/TccLacaOKLCSQMvc2hK7WuX1BEtsK7vzdjqjJs6kQ==
   dependencies:
-    xmldom "^0.1.27"
+    xmldom "^0.6.0"
 
 dom-converter@^0.2:
   version "0.2.0"
@@ -10591,10 +10591,10 @@ xml-name-validator@^3.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
 
-xmldom@^0.1.27:
-  version "0.1.31"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.31.tgz#b76c9a1bd9f0a9737e5a72dc37231cf38375e2ff"
-  integrity sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ==
+xmldom@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.6.0.tgz#43a96ecb8beece991cef382c08397d82d4d0c46f"
+  integrity sha512-iAcin401y58LckRZ0TkI4k0VSM1Qg0KGSc3i8rU+xrxe19A/BN1zHyVSJY7uoutVlaTSzYyk/v5AmkewAP7jtg==
 
 xtend@^4.0.0:
   version "4.0.2"
